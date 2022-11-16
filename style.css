@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color:rgb(184, 176, 130);
+}
+#navbar
+{
+    padding: 40px;
+    background-color:rgb(224, 197, 147);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar ul
+{
+    list-style-type: none;
+}
+#navbar a
+{
+    text-decoration: none;
+    color: brown;
+}
+#navbar a:hover
+{
+    text-decoration: none;
+    color: rgb(1, 99, 45);   
+}
+#navbar li
+{
+    font-size: 25px;
+    padding: 40px;
+    display: inline;
+}
+.landing-page
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 189, 150);
+    height: 70vh;
+}
+.landing-page .left
+{
+    width: 50%;
+    text-align: center;
+}
+.landing-page img
+{
+    width: 50%;
+}
+.landing-page .right
+{
+    width: 50%;
+}
+.right h1
+{
+    font-size: 40px;
+}
+.right p
+{
+    font-size: 20px;
+}
+footer
+{
+    padding: 40px;
+    background-color: rgb(66, 46, 18);
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+footer .left
+{
+    color: rgb(208, 233, 206);
+    width: 33%;
+    font-size: 25px;
+}
+footer .center
+{
+    color: rgb(237, 250, 236);
+    width: 33%;
+    font-size: 25px;
+}
+footer .right
+{
+    color: rgb(237, 250, 236);
+    width: 33%;
+    font-size: 25px;
+}
+footer p
+{
+    margin-top: 20px;
+}
